@@ -5,9 +5,12 @@ from Components.SelectionList import SelectionList
 from Screens.NetworkSetup import *
 from enigma import *
 from Screens.Standby import *
+from Screens.LogManager import *
 from Screens.MessageBox import MessageBox
+from Plugins.SystemPlugins.SoftwareManager.Flash_online import FlashOnline
 from Components.ActionMap import ActionMap, NumberActionMap, HelpableActionMap 
 from Screens.Screen import Screen
+from GlobalActions import globalActionMap
 from Screens.ChoiceBox import ChoiceBox
 from Tools.BoundFunction import boundFunction
 from Tools.LoadPixmap import LoadPixmap
@@ -23,6 +26,7 @@ from Components.Sources.StaticText import StaticText
 from Components.Sources.Progress import Progress
 from Components.Button import Button
 from Components.ActionMap import ActionMap
+from Components.SystemInfo import SystemInfo
 from Screens.VirtualKeyBoard import VirtualKeyBoard
 from Components.MultiContent import MultiContentEntryText, MultiContentEntryPixmapAlphaTest
 from __init__ import _
@@ -42,16 +46,10 @@ config.softcam.actCam = ConfigText(visible_width = 200)
 config.softcam.actCam2 = ConfigText(visible_width = 200)
 config.softcam.waittime = ConfigSelection([('0',_("dont wait")),('1',_("1 second")), ('5',_("5 seconds")),('10',_("10 seconds")),('15',_("15 seconds")),('20',_("20 seconds")),('30',_("30 seconds"))], default='15')
 config.plugins.infopanel_redpanel = ConfigSubsection()
-if getBoxType() == "dm800":
-	config.plugins.infopanel_redpanel.enabled = ConfigYesNo(default=False)
-else:
-	config.plugins.infopanel_redpanel.enabled = ConfigYesNo(default=True)
+config.plugins.infopanel_redpanel.enabled = ConfigYesNo(default=True)
 config.plugins.infopanel_redpanel.enabledlong = ConfigYesNo(default=False)
 config.plugins.infopanel_yellowkey = ConfigSubsection()
-if getBoxType() == "dm800":
-	config.plugins.infopanel_yellowkey.list = ConfigSelection([('0',_("Audio Selection")),('1',_("Default (Timeshift)")), ('2',_("Toggle Pillarbox <> Pan&Scan"))], default='1')
-else:
-	config.plugins.infopanel_yellowkey.list = ConfigSelection([('0',_("Audio Selection")),('1',_("Default (Timeshift)")), ('2',_("Toggle Pillarbox <> Pan&Scan"))], default='0')
+config.plugins.infopanel_yellowkey.list = ConfigSelection([('0',_("Audio Selection")),('1',_("Default (Timeshift)")), ('2',_("Toggle Pillarbox <> Pan&Scan"))])
 config.plugins.showinfopanelextensions = ConfigYesNo(default=False)
 config.plugins.infopanel_frozencheck = ConfigSubsection()
 config.plugins.infopanel_frozencheck.list = ConfigSelection([('0',_("Off")),('1',_("1 min.")), ('5',_("5 min.")),('10',_("10 min.")),('15',_("15 min.")),('30',_("30 min."))])
@@ -67,6 +65,7 @@ from Plugins.Extensions.Infopanel.ScriptRunner import *
 from Plugins.Extensions.Infopanel.MountManager import *
 from Plugins.Extensions.Infopanel.SoftcamPanel import *
 from Plugins.Extensions.Infopanel.CamStart import *
+from Plugins.Extensions.Infopanel.QuickMenu import QuickMenu
 from Plugins.Extensions.Infopanel.CamCheck import *
 from Plugins.Extensions.Infopanel.sundtek import *
 from Plugins.Extensions.Infopanel.SwapManager import Swap, SwapAutostart
@@ -128,7 +127,7 @@ machinename = getMachineName()
 machinebrand = getMachineBrand()
 OEMname = getBrandOEM()
 
-INFO_Panel_Version = 'Info-Panel V1.2'
+INFO_Panel_Version = 'Info-Panel V2.2 (mod by opendroid)'
 print "[Info-Panel] machinebrand: %s"  % (machinebrand)
 print "[Info-Panel] machinename: %s"  % (machinename)
 print "[Info-Panel] oem name: %s"  % (OEMname)
@@ -196,11 +195,13 @@ def Plugins(**kwargs):
 
 #############------- SKINS --------############################
 
-MENU_SKIN = """<screen position="center,center" size="500,370" title="INFO Panel" >
-	<widget source="global.CurrentTime" render="Label" position="0, 340" size="500,24" font="Regular;20" foregroundColor="#FFFFFF" halign="right" transparent="1" zPosition="5">
+MENU_SKIN = """<screen position="center,center" size="950,470" title="INFO Panel" >
+	<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Infopanel/pics/redlogo.png" position="0,380" size="950,84" alphatest="on" zPosition="1"/>
+	<ePixmap pixmap="/usr/lib/enigma2/python/Plugins/Extensions/Infopanel/pics/opendroid_info.png" position="510,11" size="550,354" alphatest="on" zPosition="1"/>
+		<widget source="global.CurrentTime" render="Label" position="450, 340" size="500,24" font="Regular;20" foregroundColor="#FFFFFF" halign="right" transparent="1" zPosition="5">
 		<convert type="ClockToText">>Format%H:%M:%S</convert>
 	</widget>
-	<eLabel backgroundColor="#56C856" position="0,330" size="500,1" zPosition="0" />
+	<eLabel backgroundColor="#56C856" position="0,330" size="950,1" zPosition="0" />
 	<widget name="Mlist" position="10,10" size="480,300" zPosition="1" scrollbarMode="showOnDemand" backgroundColor="#251e1f20" transparent="1" />
 	<widget name="label1" position="10,340" size="490,25" font="Regular;20" transparent="1" foregroundColor="#f2e000" halign="left" />
 </screen>"""
@@ -230,8 +231,8 @@ class PanelList(MenuList):
 
 def MenuEntryItem(entry):
 	res = [entry]
-	res.append(MultiContentEntryPixmapAlphaTest(pos=(10, 5), size=(40, 40), png=entry[0]))  # png vorn
-	res.append(MultiContentEntryText(pos=(60, 10), size=(440, 40), font=0, text=entry[1]))  # menupunkt
+	res.append(MultiContentEntryPixmapAlphaTest(pos=(0, 5), size=(100, 40), png=entry[0]))  # png vorn
+	res.append(MultiContentEntryText(pos=(110, 10), size=(440, 40), font=0, text=entry[1]))  # menupunkt
 	return res
 ###################  Max Test ###################
 
@@ -241,13 +242,13 @@ from Screens.InfoBarGenerics import InfoBarPiP
 #g
 
 def InfoEntryComponent(file):
-	png = LoadPixmap(cached = True, path = resolveFilename(SCOPE_CURRENT_SKIN, "icons/" + file + ".png"));
+	png = LoadPixmap(cached = True, path = resolveFilename(SCOPE_CURRENT_SKIN, "pics/" + file + ".png"));
 	if png == None:
-		png = LoadPixmap("/usr/lib/enigma2/python/Plugins/Extensions/Infopanel/icons/" + file + ".png")
+		png = LoadPixmap("/usr/lib/enigma2/python/Plugins/Extensions/Infopanel/pics/" + file + ".png")
 		if png == None:
-			png = LoadPixmap(cached = True, path = resolveFilename(SCOPE_CURRENT_SKIN, "icons/default.png"));
+			png = LoadPixmap(cached = True, path = resolveFilename(SCOPE_CURRENT_SKIN, "pics/default.png"));
 			if png == None:
-				png = LoadPixmap("/usr/lib/enigma2/python/Plugins/Extensions/Infopanel/icons/default.png")
+				png = LoadPixmap("/usr/lib/enigma2/python/Plugins/Extensions/Infopanel/pics/default.png")
 	res = (png)
 	return res
 
@@ -293,11 +294,11 @@ class Infopanel(Screen, InfoBarPiP):
 		if Check_Softcam():
 			self.Mlist.append(MenuEntryItem((InfoEntryComponent('SoftcamPanel'), _("SoftcamPanel"), 'SoftcamPanel')))
 			self.Mlist.append(MenuEntryItem((InfoEntryComponent('SoftcamPanelSetup'), _("Softcam-Panel Setup"), 'Softcam-Panel Setup')))
-		#self.Mlist.append(MenuEntryItem((InfoEntryComponent ("SoftwareManager" ), _("Software update"), ("software-update"))))
-		self.Mlist.append(MenuEntryItem((InfoEntryComponent ("SoftwareManager" ), _("Software Manager"), ("software-manager"))))
-		self.Mlist.append(MenuEntryItem((InfoEntryComponent('RedPanel'), _("RedPanel"), 'RedPanel')))
-		self.Mlist.append(MenuEntryItem((InfoEntryComponent('Yellow-Key-Action'), _("Yellow-Key-Action"), 'Yellow-Key-Action')))
-		self.Mlist.append(MenuEntryItem((InfoEntryComponent('KeymapSel'), _("Keymap Selection"), 'KeymapSel')))	
+		self.Mlist.append(MenuEntryItem((InfoEntryComponent ("ImageFlash" ), _("Image-Flasher"), ("ImageFlash"))))
+		self.Mlist.append(MenuEntryItem((InfoEntryComponent ("QuickMenu" ), _("Quick-Menu"), ("QuickMenu"))))
+		self.Mlist.append(MenuEntryItem((InfoEntryComponent ("LogManager" ), _("Log-Manager"), ("LogManager"))))
+		self.Mlist.append(MenuEntryItem((InfoEntryComponent ("SoftwareManager" ), _("Software-Manager"), ("software-manager"))))
+		self.Mlist.append(MenuEntryItem((InfoEntryComponent('KeymapSel'), _("Keymap-Selection"), 'KeymapSel')))	
 		self.Mlist.append(MenuEntryItem((InfoEntryComponent('Plugins'), _("Plugins"), 'Plugins')))
 		self.Mlist.append(MenuEntryItem((InfoEntryComponent('Infos'), _("Infos"), 'Infos')))
 		self.onChangedEntry = []
@@ -460,6 +461,12 @@ class Infopanel(Screen, InfoBarPiP):
 			self.session.open(ShowSoftcamPanelExtensions)
 		elif menu == "KeymapSel":
 			self.session.open(KeymapSel)
+		elif menu == "QuickMenu":
+			self.session.open(QuickMenu)
+		elif menu == "LogManager":
+			self.session.open(LogManager)
+		elif menu == "ImageFlash":
+			self.session.open(FlashOnline)
 		else:
 			pass
 

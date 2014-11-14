@@ -19,7 +19,6 @@ from Screens.Satconfig import NimSelection
 from Screens.ScanSetup import ScanSimple, ScanSetup
 from Screens.Setup import Setup, getSetupTitle
 from Screens.HarddiskSetup import HarddiskSelection, HarddiskFsckSelection, HarddiskConvertExt4Selection
-from Screens.SkinSelector import LcdSkinSelector
 from Screens.VideoMode import VideoSetup
 
 from Plugins.Plugin import PluginDescriptor
@@ -229,9 +228,7 @@ class QuickMenu(Screen):
 		self.sublist.append(QuickSubMenuEntryComponent("Button Setup",_("Button Setup"),_("Setup your remote buttons")))
 		if SystemInfo["FrontpanelDisplay"] and SystemInfo["Display"]:
 			self.sublist.append(QuickSubMenuEntryComponent("Display Settings",_("Display Setup"),_("Setup your display")))
-		if SystemInfo["LcdDisplay"]:
-			self.sublist.append(QuickSubMenuEntryComponent("LCD Skin Setup",_("Skin Setup"),_("Setup your LCD")))
-		self.sublist.append(QuickSubMenuEntryComponent("Channel selection",_("Channel selection configuration"),_("Setup your Channel selection configuration")))
+			self.sublist.append(QuickSubMenuEntryComponent("Channel selection",_("Channel selection configuration"),_("Setup your Channel selection configuration")))
 		self.sublist.append(QuickSubMenuEntryComponent("Recording settings",_("Recording Setup"),_("Setup your recording config")))
 		self.sublist.append(QuickSubMenuEntryComponent("EPG settings",_("EPG Setup"),_("Setup your EPG config")))
 		self["sublist"].l.setList(self.sublist)
@@ -427,8 +424,6 @@ class QuickMenu(Screen):
 			self.openSetup("remotesetup")
 		elif item[0] == _("Display Settings"):
 			self.openSetup("display")
-		elif item[0] == _("LCD Skin Setup"):
-			self.session.open(LcdSkinSelector)
 		elif item[0] == _("OSD settings"):
 			self.openSetup("userinterface")
 		elif item[0] == _("Channel selection"):
