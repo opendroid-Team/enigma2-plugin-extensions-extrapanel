@@ -117,8 +117,8 @@ class SoftwarePanel(Screen):
 		currentTimeoutDefault = socket.getdefaulttimeout()
 		socket.setdefaulttimeout(3)
 		try:
-			urlopenOPENDROID = "http://www.droidsat.org/feeds-status/index.php"
-			d = urlopen(urlopenOPENDROID)
+			urlopendroid = "http://www.droidsat.org/feeds-status/index.php"
+			d = urlopen(urlopendroid)
 			tmpStatus = d.read()
 			if 'rot.png' in tmpStatus:
 				self['a_off'].hide()
