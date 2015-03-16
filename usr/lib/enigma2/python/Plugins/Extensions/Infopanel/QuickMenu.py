@@ -19,7 +19,8 @@ from Screens.Satconfig import NimSelection
 from Screens.ScanSetup import ScanSimple, ScanSetup
 from Screens.Setup import Setup, getSetupTitle
 from Screens.HarddiskSetup import HarddiskSelection, HarddiskFsckSelection, HarddiskConvertExt4Selection
-from Screens.VideoMode import VideoSetup
+from Screens.SkinSelector import LcdSkinSelector
+from Screens.VideoMode import VideoSetup, AudioSetup
 
 from Plugins.Plugin import PluginDescriptor
 from Plugins.SystemPlugins.NetworkBrowser.MountManager import AutoMountManager
@@ -228,7 +229,9 @@ class QuickMenu(Screen):
 		self.sublist.append(QuickSubMenuEntryComponent("Button Setup",_("Button Setup"),_("Setup your remote buttons")))
 		if SystemInfo["FrontpanelDisplay"] and SystemInfo["Display"]:
 			self.sublist.append(QuickSubMenuEntryComponent("Display Settings",_("Display Setup"),_("Setup your display")))
-			self.sublist.append(QuickSubMenuEntryComponent("Channel selection",_("Channel selection configuration"),_("Setup your Channel selection configuration")))
+		if SystemInfo["LCDSKINSetup"]:
+			self.sublist.append(QuickSubMenuEntryComponent("LCD Skin Setup",_("Skin Setup"),_("Setup your LCD")))
+		self.sublist.append(QuickSubMenuEntryComponent("Channel selection",_("Channel selection configuration"),_("Setup your Channel selection configuration")))
 		self.sublist.append(QuickSubMenuEntryComponent("Recording settings",_("Recording Setup"),_("Setup your recording config")))
 		self.sublist.append(QuickSubMenuEntryComponent("EPG settings",_("EPG Setup"),_("Setup your EPG config")))
 		self["sublist"].l.setList(self.sublist)
@@ -279,7 +282,8 @@ class QuickMenu(Screen):
 ######## A/V Settings Menu ##############################
 	def Qavsetup(self):
 		self.sublist = []
-		self.sublist.append(QuickSubMenuEntryComponent("AV Settings",_("Setup Videomode"),_("Setup your Video Mode, Video Output and other Video Settings")))
+		self.sublist.append(QuickSubMenuEntryComponent("Video Settings",_("Setup Videomode"),_("Setup your Video Mode, Video Output and other Video Settings")))
+		self.sublist.append(QuickSubMenuEntryComponent("Audio Settings",_("Setup Audiomode"),_("Setup your Audio Mode")))
 		if AUDIOSYNC == True:
 			self.sublist.append(QuickSubMenuEntryComponent("Audio Sync",_("Setup Audio Sync"),_("Setup Audio Sync settings")))
 		self.sublist.append(QuickSubMenuEntryComponent("Auto Language",_("Auto Language Selection"),_("Select your Language for Audio/Subtitles")))
@@ -424,6 +428,8 @@ class QuickMenu(Screen):
 			self.openSetup("remotesetup")
 		elif item[0] == _("Display Settings"):
 			self.openSetup("display")
+		elif item[0] == _("LCD Skin Setup"):
+			self.session.open(LcdSkinSelector)
 		elif item[0] == _("OSD settings"):
 			self.openSetup("userinterface")
 		elif item[0] == _("Channel selection"):
@@ -445,8 +451,10 @@ class QuickMenu(Screen):
 		elif item[0] == _("Download Softcams"):
 			self.session.open(ShowSoftcamPackages)
 ######## Select AV Setup Menu ##############################
-		elif item[0] == _("AV Settings"):
+		elif item[0] == _("Video Settings"):
 			self.session.open(VideoSetup)
+		elif item[0] == _("Audio Settings"):
+			self.session.open(AudioSetup)
 		elif item[0] == _("Auto Language"):
 			self.openSetup("autolanguagesetup")
 		elif item[0] == _("Audio Sync"):
