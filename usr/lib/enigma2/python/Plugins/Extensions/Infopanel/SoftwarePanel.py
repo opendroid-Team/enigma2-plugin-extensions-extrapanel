@@ -117,7 +117,7 @@ class SoftwarePanel(Screen):
 		currentTimeoutDefault = socket.getdefaulttimeout()
 		socket.setdefaulttimeout(3)
 		try:
-			urlopendroid = "http://www.droidsat.org/feeds-status/index.php"
+			urlopendroid = "http://ampel.mynonpublic.com/Ampel/index.php"
 			d = urlopen(urlopendroid)
 			tmpStatus = d.read()
 			if 'rot.png' in tmpStatus:
