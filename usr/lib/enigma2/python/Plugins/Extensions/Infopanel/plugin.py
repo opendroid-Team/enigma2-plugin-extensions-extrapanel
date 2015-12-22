@@ -202,7 +202,7 @@ MENU_SKIN = """<screen position="center,center" size="950,470" title="INFO Panel
 		<convert type="ClockToText">>Format%H:%M:%S</convert>
 	</widget>
 	<eLabel backgroundColor="#56C856" position="0,330" size="950,1" zPosition="0" />
-	<widget name="Mlist" position="10,10" size="480,300" zPosition="1" scrollbarMode="showOnDemand" backgroundColor="#251e1f20" transparent="1" />
+ <widget name="Mlist" position="70,110" size="705,260" itemHeight="50" scrollbarMode="showOnDemand" transparent="1" zPosition="0" />
 	<widget name="label1" position="10,340" size="490,25" font="Regular;20" transparent="1" foregroundColor="#f2e000" halign="left" />
 </screen>"""
 

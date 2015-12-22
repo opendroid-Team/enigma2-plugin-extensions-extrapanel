@@ -97,11 +97,11 @@ def Check_Softcam():
 class QuickMenu(Screen):
 	skin = """
 		<screen name="QuickMenu" position="center,center" size="1180,600" backgroundColor="black" flags="wfBorder">
-		<widget name="list" position="21,32" size="370,400" backgroundColor="black" itemHeight="50" transparent="1" />
-		<widget name="sublist" position="410,32" size="300,400" backgroundColor="black" itemHeight="50" />
-		<eLabel position="400,30" size="2,400" backgroundColor="darkgrey" zPosition="3" />
+		<widget name="list" position="21,32" size="370,450" backgroundColor="black" itemHeight="50" transparent="1" />
+		<widget name="sublist" position="395,32" size="310,450" backgroundColor="black" itemHeight="50" />
+		<eLabel position="390,33" size="7,449" backgroundColor="bluette" zPosition="3" />
 		<widget source="session.VideoPicture" render="Pig" position="720,30" size="450,300" backgroundColor="transparent" zPosition="1" />
-		<widget name="description" position="22,445" size="1150,110" zPosition="1" font="Regular;22" halign="center" backgroundColor="black" transparent="1" />
+		<widget name="description" position="22,525" size="1150,110" zPosition="1" font="Regular;22" halign="center" backgroundColor="black" transparent="1" />
 		<widget name="key_red" position="20,571" size="300,26" zPosition="1" font="Regular;22" halign="center" foregroundColor="white" backgroundColor="black" transparent="1" />
 		<widget name="key_green" position="325,571" size="300,26" zPosition="1" font="Regular;22" halign="center" foregroundColor="white" backgroundColor="black" transparent="1" />
 		<widget name="key_yellow" position="630,571" size="300,26" zPosition="1" font="Regular;22" halign="center" foregroundColor="white" backgroundColor="black" transparent="1" valign="center" />
