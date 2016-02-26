@@ -4,14 +4,18 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-04-30 08:58+0100\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Civer <Civer@openATV-Team>\n"
+"Last-Translator: Opendroid-Team <opendroid2013@gmail.com>\n"
 "Language-Team: openATV Team by Civer\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-Basepath: D:\\Receiver\\Development\\openATV-TEAM-SVN\\image\\source.enigma2\\Extensions\\openATVpanel\n"
-"X-Poedit-SearchPath-0: D:\\Receiver\\Development\\openATV-TEAM-SVN\\image\\source.enigma2\\Extensions\\openATVpanel\n"
+"X-Poedit-Basepath: D:\\Receiver\\Development\\openATV-TEAM-SVN\\image"
+"\\source.enigma2\\Extensions\\openATVpanel\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: D:\\Receiver\\Development\\openATV-TEAM-SVN\\image"
+"\\source.enigma2\\Extensions\\openATVpanel\n"
 
 #: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:80
 #: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:2350
@@ -61,27 +65,30 @@ msgid "Plugins"
 msgstr "Plugin IPK"
 
 #: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:476
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:779
-msgid "Infos"
-msgstr "Informazioni"
+#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infnopanel/plugin.py:779
+msgid "Info"
+msgstr "Info"
 
 #: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:503
 msgid "openATVpanel"
-msgstr "openATVpanel (Plugin)"
+msgstr ""
 
 #: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:583
-msgid "Do you really want to start the openATV-Wizard? The Box will reboot and the Wizard will be started!"
+msgid ""
+"Do you really want to start the openATV-Wizard? The Box will reboot and the "
+"Wizard will be started!"
 msgstr ""
 
 #: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:698
-msgid "The box will reboot in a few seconds! Then openATV-Wizard will be started!"
+msgid ""
+"The box will reboot in a few seconds! Then openATV-Wizard will be started!"
 msgstr ""
 
 #: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:709
 msgid "Autostart Config"
 msgstr "Configurazione Autoavvio"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:712
+#: D:\Receiver\Development\openAT"Language-Team: Gimsy & Formiano\n"
 msgid "Generic Config"
 msgstr "Parametri generali"
 
@@ -135,7 +142,9 @@ msgid "Autostart"
 msgstr "Autoavvio"
 
 #: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:742
-msgid "OverClock"
+msgid ""
+"OverClockLanguage-Team: Gimsy & Formiano\n"
+"Language: it\n"
 msgstr ""
 
 #: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:743
@@ -215,7 +224,8 @@ msgid "Kernel"
 msgstr "Kernel"
 
 #: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:791
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:2529
+#: D:\Receiver\Development\openATV-TEAM-SVN\image\s"Language-Team: Gimsy &
+#: Formiano\n"
 msgid "Mounts"
 msgstr "Mounts"
 
@@ -274,7 +284,7 @@ msgid "openATV-Wizard"
 msgstr ""
 
 #: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:826
-msgid "Info"
+msgid "Info image"
 msgstr "Informazione immagine"
 
 #: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:830
@@ -1099,12 +1109,15 @@ msgstr "Bachup"
 
 #: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3014
 msgid ""
-"Press -restore- and your saved settings will be restored from your swapstick / recording hdd! The Box will restart automatically for restoring!\n"
+"Press -restore- and your saved settings will be restored from your "
+"swapstick / recording hdd! The Box will restart automatically for "
+"restoring!\n"
 "\n"
 "Press -backup- to save your actual settings to swapstick / recording hdd.\n"
 "WARNING: The old backup will be deleted!\n"
 "\n"
-"While using the update function of the openATV Panel, your settings will be saved and restored automatically, if possible!"
+"While using the update function of the openATV Panel, your settings will be "
+"saved and restored automatically, if possible!"
 msgstr ""
 
 #: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3038
@@ -1407,72 +1420,106 @@ msgstr "Colore"
 
 #~ msgid "FtpFS"
 #~ msgstr "Connessione FTP"
+
 #~ msgid "Power Button"
 #~ msgstr "Conigurazione spegnimento"
+
 #~ msgid "SmbFS"
 #~ msgstr "Connessione SMB"
+
 #~ msgid "UpnpFS"
 #~ msgstr "Connessione UPNP"
+
 #~ msgid "Stick"
 #~ msgstr "USB Plugins"
+
 #~ msgid "Stick Info"
 #~ msgstr "USB Lista Plugins"
+
 #~ msgid "Stop"
 #~ msgstr "Stop"
+
 #~ msgid "Exit"
 #~ msgstr "Ritorna"
+
 #~ msgid "no CAM active"
 #~ msgstr "Nessun CAM attivo"
+
 #~ msgid "active CAM: "
 #~ msgstr "CAM attuale:"
+
 #~ msgid "Start"
 #~ msgstr "Avvio"
+
 #~ msgid "autodns"
 #~ msgstr "autodns (DNS Server beim Start setzen)"
+
 #~ msgid "ftpd"
 #~ msgstr "ftpd (attivare Server FTP)"
+
 #~ msgid "portmap"
 #~ msgstr "portmap (attivare Portmap per NFS)"
+
 #~ msgid "telnet"
 #~ msgstr "telnet (Verbindungsserver nutzen)"
+
 #~ msgid "automountshel"
 #~ msgstr "automountshel (mounten bei Bootvorgang)"
+
 #~ msgid "DVDPlayer"
 #~ msgstr "DVDPlayer (Plugin)"
+
 #~ msgid "Automount "
 #~ msgstr "Automount (Sistema)"
+
 #~ msgid "Automount Enable"
 #~ msgstr "Attivare Automount"
+
 #~ msgid "Device"
 #~ msgstr "Dispositivo"
+
 #~ msgid "USB Mount Dir"
 #~ msgstr "USB Mount Dir"
+
 #~ msgid "Samba"
 #~ msgstr "Samba"
+
 #~ msgid "Workgroup"
 #~ msgstr "Arbeitsgruppe"
+
 #~ msgid "Ftp-IP"
 #~ msgstr "FTP-IP"
+
 #~ msgid "Ftp-PORT"
 #~ msgstr "FTP-Port"
+
 #~ msgid "Ftp-PRIVAT"
 #~ msgstr "FTP-Privato"
+
 #~ msgid "Ftp-USER"
 #~ msgstr "FTP-Utente"
+
 #~ msgid "Ftp-PASS"
 #~ msgstr "FTP-Password"
+
 #~ msgid "Ftp-SSL"
 #~ msgstr "FTP-SSL"
+
 #~ msgid "Stick-Info"
 #~ msgstr "Info Penndrive"
+
 #~ msgid "Filesystem"
 #~ msgstr "Filesistem"
+
 #~ msgid "Umount"
 #~ msgstr "Umount"
+
 #~ msgid "Mount"
 #~ msgstr "Mount"
+
 #~ msgid "Format"
 #~ msgstr "Formatta"
+
 #~ msgid ""
 #~ "Your swapstick is mounted as record partition!\n"
 #~ "You can`t record to the swapstick!!!\n"
@@ -1482,10 +1529,13 @@ msgstr "Colore"
 #~ "Auf den Stick KANN NICHT aufgenommen werden!!!\n"
 #~ "Er wird nur für das SwapEPG genutzt!!!\n"
 #~ "Zum Aufnehmen bitte eine Festplatte anschließen!!"
+
 #~ msgid "Option: "
 #~ msgstr "Opzione:"
+
 #~ msgid "Show start/restart menu"
 #~ msgstr "Visualizza menu Standby/Riavvio"
+
 #~ msgid ""
 #~ "Press - restore -  and the Settings are restored now!\n"
 #~ "\n"
@@ -1497,55 +1547,78 @@ msgstr "Colore"
 #~ "Swapstick/der Festplatte unter \"backup\" vorhanden sein.\n"
 #~ "\n"
 #~ "Zum zurückspielen wird die Box neu gestartet."
+
 #~ msgid ""
 #~ "3p1stbl Image found with incorrect Filename please use correct Filename !"
 #~ msgstr ""
 #~ "3p1stbl Image mit falschem Dateinamen gefunden! Bitte richtigen "
 #~ "Dateinamen verwenden!"
+
 #~ msgid "3p2 Images comming soon !"
 #~ msgstr "3p2 Images kommen in Zukunft!! ;)"
+
 #~ msgid " Default"
 #~ msgstr "Attuale:"
+
 #~ msgid "swts"
 #~ msgstr "swts"
+
 #~ msgid "profile"
 #~ msgstr "profile (enigma2 Profil in tmp erstellen)"
+
 #~ msgid "VFD-Icons"
 #~ msgstr "VFD-Icons (System)"
+
 #~ msgid "ipkg install "
 #~ msgstr "ipkg installieren"
+
 #~ msgid "Sleeptimer"
 #~ msgstr "Sleeptimer"
+
 #~ msgid "Usb Create"
 #~ msgstr "USB Stick erstellen"
+
 #~ msgid "Update Tmp"
 #~ msgstr "tmp Update"
+
 #~ msgid "Update Online"
 #~ msgstr "online Update"
+
 #~ msgid "webif"
 #~ msgstr "WebInterface"
+
 #~ msgid "Delete"
 #~ msgstr "löschen"
+
 #~ msgid "USBView"
 #~ msgstr "USBView"
+
 #~ msgid "MovieMount"
 #~ msgstr "MovieMount"
+
 #~ msgid "HDDSleep (min.)"
 #~ msgstr "HDDSleep (min.)"
+
 #~ msgid "Show/Edit NFS/CIFS-Server"
 #~ msgstr "Zeige/editiere NFS/CIFS-Server"
+
 #~ msgid "Server"
 #~ msgstr "Server"
+
 #~ msgid "Local dir"
 #~ msgstr "lokales Verzeichnis"
+
 #~ msgid "Rsize"
 #~ msgstr "rsize"
+
 #~ msgid "Wsize"
 #~ msgstr "wsize"
+
 #~ msgid "Option"
 #~ msgstr "Option"
+
 #~ msgid "Restarting Enigma2"
 #~ msgstr "Starte enigma2 neu"
+
 #~ msgid "Enigma2 restarts with cam"
 #~ msgstr "enigma2 startet mit CAM"
-
