@@ -11,311 +11,183 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-Basepath: D:\\Receiver\\Development\\openATV-TEAM-SVN\\image"
-"\\source.enigma2\\Extensions\\openATVpanel\n"
 "X-Generator: Poedit 1.5.4\n"
-"X-Poedit-SearchPath-0: D:\\Receiver\\Development\\openATV-TEAM-SVN\\image"
-"\\source.enigma2\\Extensions\\openATVpanel\n"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:80
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:2350
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:2832
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3013
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3066
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3112
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3280
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3481
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3690
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:4142
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:4443
 msgid "Cancel"
-msgstr "ritorna"
+msgstr "Cancella"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:80
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:2831
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:4141
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:4442
 msgid "Save"
 msgstr "Salva"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:458
 msgid "Permission denied...."
-msgstr ""
+msgstr "Permesso negato"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:470
 msgid "SoftCam Panel"
-msgstr "SoftCam Menu"
+msgstr "Panello SoftCam"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:472
 msgid "Addon-Manager"
 msgstr "Addon-Manager"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:473
 msgid "Setup"
 msgstr "Configurazione"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:474
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:820
 msgid "System"
 msgstr "Sistema"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:475
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:763
 msgid "Plugins"
-msgstr "Plugin IPK"
+msgstr "Plugins IPK"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:476
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:779
 msgid "Info"
-msgstr "Info"
+msgstr "Informazioni"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:503
-msgid "openATVpanel"
-msgstr ""
-
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:583
-msgid ""
-"Do you really want to start the openATV-Wizard? The Box will reboot and the "
-"Wizard will be started!"
-msgstr ""
-
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:698
-msgid ""
-"The box will reboot in a few seconds! Then openATV-Wizard will be started!"
-msgstr ""
-
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:709
 msgid "Autostart Config"
 msgstr "Configurazione Autoavvio"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:712
 msgid "Generic Config"
 msgstr "Parametri generali"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:713
-msgid "Audio / Video / SAT Config"
-msgstr ""
+msgid "Audio/Video/SAT Config"
+msgstr "Audio/Video/Config SAT"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:714
 msgid "Devices Config"
-msgstr "Parametri USB Pendrive"
+msgstr "Parametri USB Pendriver"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:715
 #, fuzzy
 msgid "Recording Config"
 msgstr "Parametri generali"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:716
 #, fuzzy
-msgid "CAM / EMU Config"
-msgstr "Configurazione openATV"
+msgid "CAM/EMU Config"
+msgstr "CAM/Configurazione EMU"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:717
 msgid "Network Config"
-msgstr "Parametri rete"
+msgstr "Configurazione di rete"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:718
 msgid "Parental "
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:720
 #, fuzzy
 msgid "Remote Config"
-msgstr "entferntes Verzeichnis"
+msgstr "Configurazione remota"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:721
 #, fuzzy
 msgid "Szap Config"
 msgstr "Configurazione openATV"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:738
 #, fuzzy
 msgid "Beta Config"
 msgstr "Parametri rete"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:739
 msgid "Automount"
 msgstr "Automount"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:740
 msgid "Autostart"
 msgstr "Autoavvio"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:743
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:2708
 #, fuzzy
 msgid "Red-Key-Action"
-msgstr "Azione blue key"
+msgstr "Azione Red key"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:744
 msgid "Blue-Key-Action"
 msgstr "Azione blue key"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:746
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:828
 msgid "miniconfig"
 msgstr "Configurazione MiniUboot"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:748
 msgid "Fan Control"
-msgstr "Controllo ventilatore"
+msgstr "Controllo ventola"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:749
 msgid "Networksetup"
 msgstr "Impostazione rete"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:750
 msgid "PlugLoad"
 msgstr "Controllo plugin"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:751
 msgid "Record"
 msgstr "Partizione per la registrazione"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:752
 msgid "VideoTune"
 msgstr "VideoTune (sistema)"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:768
 msgid "Pluginbrowser"
 msgstr "Menu supplementare"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:769
 msgid "TMP IPK LIST"
-msgstr "lista tmp IPK"
+msgstr "Lista tmp IPK"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:770
 msgid "TMP IPK INSTALL"
-msgstr "installa tmp IPK"
+msgstr "Installa tmp IPK"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:771
 msgid "TMP IPK REMOVE"
-msgstr "rimuovi tmp IPK"
+msgstr "Rimuovi tmp IPK"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:785
-msgid "openATV"
-msgstr "openATV"
-
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:787
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:2492
 msgid "Bootargs"
 msgstr "Bootargs"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:788
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:2464
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:4444
 msgid "Default"
 msgstr "Default"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:789
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:2520
 msgid "FreeSpace"
 msgstr "Spazio disponibile"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:790
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:2548
 msgid "Kernel"
 msgstr "Kernel"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:791
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\s"Language-Team: Gimsy &
-#: Formiano\n"
 msgid "Mounts"
 msgstr "Mounts"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:792
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:2538
 msgid "Network"
 msgstr "Rete"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:793
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:2562
 msgid "Ram"
 msgstr "RAM"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:794
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:803
 msgid "System Info"
 msgstr "Info sistema"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:806
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:2571
 msgid "Cpu"
 msgstr "CPU"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:807
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:2589
 msgid "MemInfo"
 msgstr "Info memoria"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:808
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:2607
 msgid "Mtd"
 msgstr "MTD"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:809
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:2598
 msgid "Module"
 msgstr "Moduli"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:810
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:2616
 msgid "Partitions"
 msgstr "Partizioni"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:811
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:2625
 msgid "Swap"
 msgstr "Swap"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:812
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:2580
 msgid "Top"
 msgstr "Top processi"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:825
-msgid "openATV-Wizard"
-msgstr ""
-
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:826
 msgid "Info image"
 msgstr "Informazione immagine"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:830
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3065
 msgid "Backup"
-msgstr "Bachup"
+msgstr "Backup"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:831
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3027
 #, fuzzy
 msgid "Backup / Restore Settings"
 msgstr "Ripristino Settings"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:833
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:837
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3143
 msgid "Flash Tmp Updater"
 msgstr "Aggiornamento Flash tmp"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:834
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:838
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3319
 msgid "Flash Online Updater"
 msgstr "Aggiornamento Flash online"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:840
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3589
 msgid "Usb Tmp Updater"
 msgstr "Aggiornamento USB tmp"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:841
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3821
 msgid "Usb Online Updater"
 msgstr "Aggiornamento USB online"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:850
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:874
 msgid ""
 "No IPK found\n"
 "\n"
@@ -324,7 +196,6 @@ msgstr ""
 "\n"
 "\n"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:852
 msgid ""
 "List IPK\n"
 "\n"
@@ -332,31 +203,9 @@ msgstr ""
 "Lista IPK\n"
 "\n"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:854
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:876
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:887
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:2451
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:2460
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:2488
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:2516
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:2525
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:2534
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:2544
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:2558
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:2567
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:2576
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:2585
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:2594
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:2603
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:2612
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:2621
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:2641
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:2777
 msgid "an internal error has occur"
 msgstr "Si è verificato un errore interno"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:883
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:885
 msgid ""
 "Remove IPK\n"
 "\n"
