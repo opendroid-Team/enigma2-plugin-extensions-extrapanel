@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: openATVpanel\n"
+"Project-Id-Version: openATVpanel mod OPD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-04-30 08:58+0100\n"
-"PO-Revision-Date: \n"
+"PO-Revision-Date: 2016-03-21 00:58+0100\n"
 "Last-Translator: Opendroid-Team <opendroid2013@gmail.com>\n"
 "Language-Team: openATV Team by Civer\n"
 "Language: it\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.8.4\n"
 
 msgid "Cancel"
 msgstr "Cancella"
@@ -64,7 +64,7 @@ msgid "Network Config"
 msgstr "Configurazione di rete"
 
 msgid "Parental "
-msgstr ""
+msgstr "Parentale"
 
 #, fuzzy
 msgid "Remote Config"
@@ -213,68 +213,52 @@ msgstr ""
 "Rimuovi IPK\n"
 "\n"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:885
 msgid "Successfully terminated"
 msgstr "Terminato con successo"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:958
 msgid "Please choose an extension to..."
 msgstr "Scegli un plugin..."
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:972
 msgid "blue key calls "
 msgstr "Azione Tasto blu attuale:  "
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1004
 #, fuzzy
 msgid "Default "
 msgstr "Default"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1005
 #, fuzzy
 msgid "Softcam"
 msgstr "SoftCam Menu"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1006
 msgid "show single service EPG"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1007
 msgid "show multi service EPG"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1053
 msgid "Restart"
 msgstr "Riavvio"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1054
 msgid "Deactivate"
-msgstr ""
+msgstr "Disattivare"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1055
 msgid "Refresh"
 msgstr "Attualizza"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1056
 msgid "Activate"
-msgstr ""
+msgstr "Attivare"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1057
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1166
 msgid "No ECM info"
 msgstr "ECM Info non disponibile"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1099
 #, fuzzy
 msgid "Softcam Panel V0.27"
 msgstr "Softcam Panel V0.24"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1103
 #, fuzzy
 msgid "Softcam auswahl:"
 msgstr "SoftCam Menu"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1148
 #, fuzzy
 msgid "no emu found"
 msgstr ""
@@ -282,347 +266,238 @@ msgstr ""
 "\n"
 "\n"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1172
 msgid "No new ECM info"
 msgstr "Nuovo ECM info fallito"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1290
 msgid "This Softcam Emuconfig is comming soon... (current oscam only) !"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1292
 msgid "Your Softcam has on unsupported filename... !"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1341
 msgid "/dev/sci0"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1341
 msgid "/dev/sci1"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1341
 msgid "/dev/ttyUSB0"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1341
 msgid "/dev/ttyUSB1"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1342
 #, fuzzy
 msgid "Select your Device"
 msgstr "Scegli il dispositivo per l'installazione"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1344
 msgid "internal"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1344
 msgid "mouse"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1344
 msgid "cccam"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1344
 msgid "camd35"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1344
 msgid "newcamd"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1345
 msgid "Select your Protocol"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1348
 #, python-format
 msgid "Enter your change for: %s"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1512
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1514
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3173
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3176
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3179
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3182
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3185
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3369
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3372
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3375
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3378
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3381
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3631
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3881
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3945
 msgid "yes"
 msgstr "Si"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1512
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1514
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3173
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3176
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3179
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3182
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3185
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3369
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3372
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3375
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3378
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3381
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3631
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3881
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:3945
 msgid "no"
 msgstr "No"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1516
 msgid "status"
 msgstr "Stato"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1516
 msgid "ip"
 msgstr "IP"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1519
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1521
 msgid "high"
 msgstr "alto"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1519
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1521
 msgid "low"
 msgstr "basso"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1519
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1523
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1524
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:4153
 msgid "off"
 msgstr "off"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1522
 msgid "big"
 msgstr "grande"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1522
 msgid "small"
 msgstr "piccolo"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1523
 msgid "normal"
 msgstr "Normale"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1523
 msgid "hdd"
 msgstr "HDD"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1523
 msgid " swap"
 msgstr "Penndrive SWAP"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1524
 msgid "always"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1524
 #, fuzzy
 msgid "at bootloop"
-msgstr "bootlogo (Bootbild anzeigen)"
+msgstr "bootlogo"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1525
 msgid "don`t split"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1525
 msgid "1 GigaByte"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1525
 msgid "2 GigaByte"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1525
 msgid "3 GigaByte"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1525
 msgid "4 GigaByte"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1526
 msgid "e1 ending (*.001 , *.002 , ...)"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1526
 msgid "*.ts ending"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1527
 msgid "tuner 1"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1527
 msgid "tuner 2"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1527
 msgid "tuner 3"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1527
 msgid "tuner 4"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1528
 msgid "1"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1528
 msgid "2"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1528
 msgid "3"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1528
 msgid "4"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1529
 msgid "2 readers"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1529
 msgid "3 readers"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1529
 msgid "4 readers"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1529
 msgid "5 readers"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1529
 msgid "6 readers"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1529
 msgid "7 readers"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1529
 msgid "no one"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1529
 msgid "1 reader"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1601
 msgid "fsckroot"
 msgstr "fsckroot"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1602
 msgid "bootstop"
-msgstr "bootstop (ferma il sistema dopo in s)"
+msgstr "bootstop (ferma il sistema dopo s)"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1603
 msgid "debug"
 msgstr "debug (Impostazione debug)"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1604
 #, fuzzy
 msgid "logto"
 msgstr "e2logto (e2 Ausgabe loggen)"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1605
 #, fuzzy
 msgid "errorboot"
 msgstr "e2errorboot (avviare solo la GUI dopo un GS?)"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1606
 msgid "repairmodus"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1607
 msgid "rmcrashlog"
 msgstr "rmcrashlog (eliminare protocollo errorel)"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1608
 msgid "rmemthy"
 msgstr "rmemthy"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1609
 msgid "plugload"
 msgstr "plugload (Controllo Plugin)"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1610
 msgid "progressbar"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1611
 msgid "showip"
 msgstr "showip (Mostra stato IP nel Display LCD)"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1612
 #, fuzzy
 msgid "showtvinfo"
 msgstr "showiptv (Mostra Info in TV all avvio)"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1613
 msgid "playlist"
 msgstr "playlist"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1614
 msgid "updatelist"
 msgstr "updatelist (Anzahl Images in Updateliste)"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1618
 msgid "oldaudiofw"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1619
 msgid "noaudiosync"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1620
 msgid "BootResolution"
 msgstr "BootResolution (Risoluzione Boot)"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1621
 msgid "bootlogo"
 msgstr "bootlogo (Bootbild anzeigen)"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1622
 msgid "poweroff"
 msgstr "poweroff (Bootbild bei Shutdown/Reboot)"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1623
 msgid "fontsize"
 msgstr "fontsize (Testo NoGFX Skin)"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1624
 #, fuzzy
 msgid "scartonstandby"
 msgstr "SoftStandby"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1625
 msgid "HighSR"
 msgstr "HighSR (Usa risoluzione alta)"
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1626
 msgid "tuner_sleep_off"
 msgstr ""
 
-#: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1627
 msgid "bootrgbfix"
 msgstr ""
 
