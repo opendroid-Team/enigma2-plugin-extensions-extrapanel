@@ -11,9 +11,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: .\n"
-"X-Generator: Poedit 1.5.4\n"
-"X-Poedit-SearchPath-0: D:\\Repos\\info\\enigma2\\lib\\python"
-"\\Plugins\\Extensions\\openATVpanel\n"
+"X-Generator: Poedit 1.8.4\n"
+"Language: de\n"
+"X-Poedit-SearchPath-0: D:/Repos/info/enigma2/lib/python/Plugins/Extensions/"
+"openATVpanel\n"
 
 #: D:\Repos\info\enigma2\lib\python\Plugins\Extensions\Infopanel/About.py:37
 #: D:\Repos\info\enigma2\lib\python\Plugins\Extensions\Infopanel/HddInfo.py:51
@@ -360,7 +361,7 @@ msgstr "Über"
 
 #: D:\Repos\info\enigma2\lib\python\Plugins\Extensions\Infopanel/plugin.py:282
 msgid "Info Panel"
-msgstr "Info Panel"
+msgstr "InfoPanel"
 
 #: D:\Repos\info\enigma2\lib\python\Plugins\Extensions\Infopanel/plugin.py:422
 msgid "Networksetup"
