@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: infopanel mod OPD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-04-30 08:58+0100\n"
-"PO-Revision-Date: 2016-03-21 01:13+0100\n"
+"PO-Revision-Date: 2016-04-03 13:29+0200\n"
 "Last-Translator: Opendroid-Team <opendroid2013@gmail.com>\n"
 "Language-Team: openATV Team by Civer\n"
 "Language: it\n"
@@ -500,6 +500,9 @@ msgstr ""
 
 msgid "bootrgbfix"
 msgstr ""
+
+msgid "Info Panel"
+msgstr "InfoPanel"
 
 #: D:\Receiver\Development\openATV-TEAM-SVN\image\source.enigma2\Extensions\Infopanel/plugin.py:1633
 msgid "loadpartition"
