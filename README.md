@@ -1,4 +1,4 @@
 enigma2-plugin-extensions-extrapanel
 ====================================
 
-ExtraPanel Droid
+ExtraPanel Droid 6.4
